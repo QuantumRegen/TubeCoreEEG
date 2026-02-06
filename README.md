@@ -1,5 +1,4 @@
 # TubeCoreEEG
-# RegenSpec
 
 Physics-inspired EEG power spectral density (PSD) fitting framework.  
 Double-Gaussian cores (theta + alpha) + power-law background, originally motivated by QCD flux tube energy profiles.
