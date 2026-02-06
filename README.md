@@ -20,6 +20,18 @@ P(f) = A_\theta \exp\left(-\frac{(f - f_{p\theta})^2}{2\sigma_\theta^2}\right) +
 - fp_alpha ~5 Hz (pinned, task suppression), occasionally higher
 - χ²_red 0.02–0.4 (excellent for raw data)
 - RMS freq 11–23 Hz (mid-high power weight)
+  
+## Data Sources & Citation
+
+All results shown were generated using the **BCI Competition IV dataset 2a** (motor and motor imagery EEG), hosted on OpenNeuro as ds003190.
+
+**Original dataset citation** (please cite this if using the data):
+> Brunner, C., Leeb, R., Müller-Putz, G. R., Schlögl, A., & Pfurtscheller, G. (2008). BCI Competition IV: self-paced 1s vs 2s trial paradigm (dataset 2a). Graz University of Technology, Graz, Austria.
+
+**OpenNeuro version** (what this repo uses):
+> OpenNeuro (2020). BCI Competition IV dataset 2a (ds003190). https://doi.org/10.18112/openneuro.ds003190.v1.0.1
+
+Data downloaded via OpenNeuro CLI and AWS S3 sync. Thanks to the Graz BCI group and OpenNeuro for making this openly available.
 
 Full metrics in `./bci_fits/`
 
